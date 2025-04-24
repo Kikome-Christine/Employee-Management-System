@@ -62,7 +62,7 @@ const UpdateEmployee = ({ employeeId, onClose, onUpdate }) => {
                                     type="text"
                                     className="form-control"
                                     name="Name"
-                                    value={employee.firstName}
+                                    value={employee.name}
                                     onChange={handleChange}
                                     required
                                 />

@@ -78,7 +78,7 @@ const EmployeeList = () => {
                             {employees.map((employee) => (
                                 <tr key={employee.id}>
                                     <td>{employee.id}</td>
-                                    <td>{employee.Name}</td>
+                                    <td>{employee.name}</td>
                                     <td>{employee.email}</td>
                                     <td>{employee.department}</td>
                                     <td>{employee.position}</td>
